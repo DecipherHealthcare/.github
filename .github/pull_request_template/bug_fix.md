@@ -1,19 +1,24 @@
-## 🚀 Summary
-Provide a concise description of the bug fix and the problem it solves.
+# 🐞 Bug Fix
 
-## 📝 Description of Changes
-- [ ] Bug Fix
+## Summary
+What bug is being fixed? Provide a short description.
+
+## Root Cause
+What caused the issue?
+
+## Fix Implemented
+Describe how the bug was resolved.
+
+## Testing Done
+- [ ] Reproduced issue
+- [ ] Verified fix locally
+- [ ] Added/updated tests
+
+Steps to test:
 
 
-Detail the changes here:
+## Impact
+- [ ] No breaking changes
+- [ ] Potential side effects (describe below)
 
----
-
-## 🔍 Related Issues / Tickets
-Closes: #ISSUE_ID  
-Related: #ISSUE_ID
-
----
-
-## 📘 Additional Notes
-Anything else reviewers should know (performance, risk, rollback steps, etc.)
+Notes:
