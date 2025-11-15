@@ -1,0 +1,33 @@
+## Branch Naming Standard 
+ 
+Use lowercase kebab or snake inside the <short-desc>
+
+Examples: 
+
+feature/<jira-id>-<short-desc> 
+e.g., feature/PROJ-1234-bulk-export 
+
+bugfix/<jira-bug-id>-<short-desc> 
+e.g., bugfix/PROJ-1987-npe-on-login 
+
+hotfix/<jira-id>-<short-desc> 
+e.g., hotfix/PROJ-2101-rollback-bad-migration 
+
+release/<jira-release-name-id> 
+e.g., release/Q4-2025-R1-PROJ-REL-15 
+
+## Commit Format
+
+Format: <type>(<scope>): <short-description>
+
+Types: feat, fix, docs, style, refactor, test, chore, ci, perf
+Scope: optional component/module name
+Description: 50 chars max
+
+Example: feat(auth): add multi-factor authentication support - New Feature
+Example: refactor(auth): optimize auth logic - Refactoring of code
+Example: chore(deps): update AWS SDK to v2.5.1 - Misc tasks, dependency updates etc
+Example: ci(actions): add deployment workflow - Changes to CI/CD pipelines
+Example: build(package): update webpack configuration - Build tool changes
+Example: fix(auth): correct password validation logic - Bug fixes
+Example: test(login): add unit tests for login validation - Test cases modifications
