@@ -1,4 +1,9 @@
-# ✨ New Feature
+# Type of Change
+- [ ] Feature
+- [ ] Bug Fix
+- [ ] Hotfix
+- [ ] Documentation
+- [ ] Other
 
 ## Summary
 Brief overview of the new feature.
